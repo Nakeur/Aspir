@@ -56,10 +56,12 @@ a:hover {
 
 .association_section_txt{
     width: 50%;
+    margin-bottom: 100px;
 }
 
 .infos_news {
     display: inline-block;
+    margin-bottom: 100px;
 }
 
 .infos_news_txt {
@@ -70,4 +72,18 @@ a:hover {
 .infos_news_media {
     width: 50%;
     float: left;
+}
+
+.third_section {
+    display: inline-block;
+}
+
+.partenaire_section {
+    width: 50%;
+    float: left;
+}
+
+.adhesion{
+    width: 50%;
+    float: right;
 }
