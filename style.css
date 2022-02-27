@@ -1,6 +1,6 @@
 body {
     font-family:'Lato', sans-serif;
-    margin: 15%;
+    margin: 20%;
     margin-top: 2%;
     background-color: #eaeaea;
 }
@@ -63,16 +63,18 @@ a:hover {
 .infos_news {
     display: inline-block;
     margin-bottom: 100px;
+    width: 100%;
+}
+
+
+.infos_news_media {
+    float: left;
+    width: 45%;
 }
 
 .infos_news_txt {
+    float: right;
     width: 45%;
-    float:right;
-}
-
-.infos_news_media {
-    width: 45%;
-    float: left;
 }
 
 .third_section {
