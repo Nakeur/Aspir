@@ -1,92 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Adapted for screen */
+
+@media only screen and (min-width: 768px) {
 body {
-    font-family:'Lato', sans-serif;
-    margin: 20%;
-    margin-top: 2%;
+    margin:5% 20% 1% 20%;
     background-color: #eaeaea;
 }
 
 .main_page {
     background-color: white;
-    box-shadow: 0 2px 6px ;
-    padding: 25px;
-    text-align: justify;
-}
-
-.header {
-    height: 200px;
-    width: 100%;
-    border-bottom:solid;
-    border-bottom-color: #00AFAD ; 
-    display: inline-block;
-    font-size: x-large;
+    padding: 2%;
+    box-shadow:  0 2px 6px ;
 }
 
 #header_title {
     text-align: center;
-    color: #00AFAD;
+    margin: 50px 0 0 20px;
+}
+.first_section {
+    display: inline-block;
+    width: 100%;
+}
+
+.association_section_txt {
+    width: 50%;
+    float: left;
+    padding:2%;
+}
+
+.association_section_media {
+    width: 50%;
+    float: right;
+    padding:2%;
 
 }
 
-.page_nav {
-    margin-top: 15px;
-    margin-bottom: 150px;
-}
-.navigation_bar{
-    text-align: center;
-    height: 20px;
+.second_section {
+    display: inline-block;
+    width: 100%;
 }
 
-.navigation_bar a {
-    padding: 20px;
-    font-size: 25px;
+.infos_news_media {
+    width: 50%;
+    float: left;
+    padding:2%;
 }
+
+.infos_news_txt {
+    width: 50%;
+    float: right;
+    padding:2%;
+}
+
+.third_section {
+    display: inline-block;
+    width: 100%;
+}
+
+.partenaire_section {
+    width: 50%;
+    float: left;
+    padding:2%;
+}
+
+.adhesion {
+    width: 50%;
+    float: right;
+    padding:2%;
+}
+
+}
+
+/* For mobile device */
 
 a:link {
-    color:black;
-    text-decoration: none; 
+    text-decoration: none;
+    color: black;
 }
 
 a:visited {
-    color:black;
-    text-decoration: none;
+    color: black;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.association_section_txt{
-    width: 45%;
-    margin-bottom: 100px;
+body {
+    font-family: "Lato", sans-serif;
 }
 
-.infos_news {
-    display: inline-block;
-    margin-bottom: 100px;
+.header {
     width: 100%;
-}
-
-
-.infos_news_media {
-    float: left;
-    width: 45%;
-}
-
-.infos_news_txt {
-    float: right;
-    width: 45%;
-}
-
-.third_section {
     display: inline-block;
+    border-bottom:solid;
+    border-bottom-color: #00AFAD ;
 }
 
-.partenaire_section {
-    width: 45%;
-    float: left;
+#logo_header {
+    float:left;
 }
 
-.adhesion{
-    width: 45%;
-    float: right;
+#header_title {
+    float:left;
+    color: #00AFAD;
+
+}
+
+.button {
+    background-color:#00AFAD;
+    width: 100%;
+    border: none;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    border-top : solid;
+    border-top-color:black;
+
+}
+
+.link_fb {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+
+.mail {
+    width: 20px;
+    height: auto;
 }
