@@ -1,5 +1,99 @@
+/*General setting*/
+
 * {
     box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.header {
+    width: 100%;
+    display: inline-block;
+    border-bottom:solid;
+    border-bottom-color: #00AFAD ;
+    text-align: center;
+}
+
+.button {
+    background-color:#00AFAD;
+    width: 100%;
+    border: none;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    border-top : solid;
+    border-top-color:black;
+
+}
+
+.link_fb {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+
+.mail {
+    width: 20px;
+    height: auto;
+}
+
+
+/* For mobile device */
+
+@media only screen and (max-width:767px) {
+
+.main_page {
+    margin:1%;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+ul {
+    text-align: justify;
+    font-size: 14px;
+}
+
+
+#header_title {
+    float:left;
+    color: #00AFAD;
+
+}
+
+footer p {
+    text-align: center;
+}
+
+
 }
 
 /* Adapted for screen */
@@ -16,9 +110,15 @@ body {
     box-shadow:  0 2px 6px ;
 }
 
+#logo_header {
+    float:left;
+}
+
 #header_title {
     text-align: center;
     margin: 50px 0 0 20px;
+    float:left;
+    color: #00AFAD;
 }
 .first_section {
     display: inline-block;
@@ -74,67 +174,3 @@ body {
 
 }
 
-/* For mobile device */
-
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-body {
-    font-family: "Lato", sans-serif;
-}
-
-.header {
-    width: 100%;
-    display: inline-block;
-    border-bottom:solid;
-    border-bottom-color: #00AFAD ;
-}
-
-#logo_header {
-    float:left;
-}
-
-#header_title {
-    float:left;
-    color: #00AFAD;
-
-}
-
-.button {
-    background-color:#00AFAD;
-    width: 100%;
-    border: none;
-    color:white;
-    text-align: center;
-    cursor:pointer;
-}
-
-footer {
-    text-align: center;
-    width: 100%;
-    background-color: white;
-    border-top : solid;
-    border-top-color:black;
-
-}
-
-.link_fb {
-    width: 20px;
-    height: auto;
-    cursor: pointer;
-}
-
-.mail {
-    width: 20px;
-    height: auto;
-}
