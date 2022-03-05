@@ -29,6 +29,19 @@ body {
     text-align: center;
 }
 
+.navigation_bar {
+    text-align: center;
+    background-color: #00AFAD;
+    
+}
+
+.navigation_bar a{
+    font-size: 1.5em;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+}
+
 .button {
     background-color:#00AFAD;
     width: 100%;
@@ -94,6 +107,7 @@ footer p {
 }
 
 
+
 }
 
 /* Adapted for screen */
@@ -120,6 +134,12 @@ body {
     float:left;
     color: #00AFAD;
 }
+
+.twitter_section {
+    overflow-y: auto;
+
+}
+
 .first_section {
     display: inline-block;
     width: 100%;
