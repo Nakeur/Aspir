@@ -1,8 +1,8 @@
 /*General setting*/
 
-* {
+/** {
     box-sizing: border-box;
-}
+}*/
 
 a:link {
     text-decoration: none;
@@ -21,12 +21,8 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-.header {
-    width: 100%;
-    display: inline-block;
-    border-bottom:solid;
-    border-bottom-color: #00AFAD ;
-    text-align: center;
+.header h1 {
+    color: #00AFAD ;
 }
 
 .navigation_bar {
@@ -44,10 +40,8 @@ body {
 
 .button {
     background-color:#00AFAD;
-    width: 100%;
     border: none;
     color:white;
-    text-align: center;
     cursor:pointer;
 }
 
@@ -66,6 +60,12 @@ footer {
     cursor: pointer;
 }
 
+.submitBtn {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+
 .mail {
     width: 20px;
     height: auto;
@@ -76,13 +76,23 @@ footer {
 
 @media only screen and (max-width:767px) {
 
-.main_page {
+
+
+/*.main_page {
     margin:1%;
-}
+}*/
 
 
 h2 {
     text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.contact {
+    display:none;
 }
 
 p {
@@ -113,84 +123,42 @@ footer p {
 /* Adapted for screen */
 
 @media only screen and (min-width: 768px) {
-body {
-    margin:5% 20% 1% 20%;
-    background-color: #eaeaea;
+
+html, body {
+    margin: 0
+    }
+
+.header {
+    display:flex;
+    justify-content: center;
+    position:relative
 }
 
-.main_page {
-    background-color: white;
-    padding: 2%;
-    box-shadow:  0 2px 6px ;
+.navigation_bar {
+    padding: 10px 0;
+    
 }
 
-#logo_header {
-    float:left;
+.header h1 {
+    padding-top: 40px;
+    padding-right: 10px;
 }
 
-#header_title {
-    text-align: center;
-    margin: 50px 0 0 20px;
-    float:left;
-    color: #00AFAD;
+.contact {
+    margin-top: 10px;
 }
 
-.twitter_section {
-    overflow-y: auto;
 
-}
-
-.first_section {
+.contact p {
     display: inline-block;
-    width: 100%;
+    padding: 0 0 0 10px;
+    margin: 10px 0;
 }
 
-.association_section_txt {
-    width: 50%;
-    float: left;
-    padding:2%;
+.mail {
+    margin-block: -5px;
 }
 
-.association_section_media {
-    width: 50%;
-    float: right;
-    padding:2%;
-
+.corps {
+    padding: 0 21%;
 }
-
-.second_section {
-    display: inline-block;
-    width: 100%;
-}
-
-.infos_news_media {
-    width: 50%;
-    float: left;
-    padding:2%;
-}
-
-.infos_news_txt {
-    width: 50%;
-    float: right;
-    padding:2%;
-}
-
-.third_section {
-    display: inline-block;
-    width: 100%;
-}
-
-.partenaire_section {
-    width: 50%;
-    float: left;
-    padding:2%;
-}
-
-.adhesion {
-    width: 50%;
-    float: right;
-    padding:2%;
-}
-
-}
-
