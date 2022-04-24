@@ -1,0 +1,80 @@
+/* General Settings*/
+
+h1 {
+    text-align: center;
+}
+
+.listProCommune {
+    
+    max-height : fit-content;
+   
+   
+    margin: 2px 0;
+}
+
+.departement {
+    fill:white;
+}
+
+.departement:hover {
+    fill:blue;
+    transition: fill 0.3s;
+}
+
+.communePro{
+    display: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.blanc {
+    border-top: solid 1px;
+}
+
+#svg {
+    width: 100%;
+}
+
+li {
+    padding:1% 0;
+}
+
+/* For mobile device */
+
+@media only screen and (max-width:767px) {
+
+.interfaceDisplay {
+    display: inline;
+}
+
+
+
+}
+
+/* Adapted for screen */
+
+@media only screen and (min-width: 768px) {
+
+.interfaceDisplay {
+    display: flex;
+    margin-left: 32%;
+}
+.map {
+    width: fit-content;
+}
+
+.map__img{
+    width: fit-content;
+}
+
+
+
+.listProCommune {
+    width: 650px;
+    height: 600px;
+    overflow-y: scroll;
+}
+}
